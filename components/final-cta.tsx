@@ -36,16 +36,25 @@ export function FinalCTA() {
         </div>
 
         {/* Demo Credentials */}
-        <div className="inline-flex items-center gap-4 px-4 py-2 rounded-full bg-zinc-900/50 border border-zinc-800/50 text-xs text-zinc-400">
-          <span className="flex items-center gap-1.5">
-            <span className="text-zinc-500">Username:</span>
-            <span className="text-zinc-300 font-mono">nexusadmin</span>
-          </span>
-          <div className="w-px h-3 bg-zinc-800" />
-          <span className="flex items-center gap-1.5">
-            <span className="text-zinc-500">Password:</span>
-            <span className="text-zinc-300 font-mono">Testing1!</span>
-          </span>
+        <div className="flex flex-col gap-2 items-center">
+          <div className="inline-flex items-center gap-4 px-4 py-2 rounded-full bg-zinc-900/50 border border-zinc-800/50 text-xs text-zinc-400">
+            <span className="flex items-center gap-1.5 text-zinc-500 font-medium">Admin Access:</span>
+            <span className="flex items-center gap-1.5">
+              <span className="text-zinc-500">Username:</span>
+              <span className="text-zinc-300 font-mono">nexusadmin</span>
+            </span>
+            <div className="w-px h-3 bg-zinc-800" />
+            <span className="flex items-center gap-1.5">
+              <span className="text-zinc-500">Password:</span>
+              <span className="text-zinc-300 font-mono">Testing1!</span>
+            </span>
+          </div>
+          <div className="inline-flex items-center gap-4 px-4 py-2 rounded-full bg-zinc-900/50 border border-zinc-800/50 text-xs text-zinc-400">
+            <span className="flex items-center gap-1.5 text-zinc-500 font-medium">Cashier Access:</span>
+            <span className="flex items-center gap-1.5">
+              <span className="text-zinc-300 font-mono">PIN: 123456</span>
+            </span>
+          </div>
         </div>
 
         <p className="mt-8 text-sm text-zinc-500">
