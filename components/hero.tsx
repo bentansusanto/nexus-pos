@@ -94,7 +94,7 @@ export function Hero() {
           <Image
             width={1920}
             height={1080}
-            src="/bg-hero.png"
+            src="/bg-hero-1.png"
             alt="Platform Preview"
             className="rounded-xl border border-zinc-800 w-full h-auto shadow-sm block"
           />

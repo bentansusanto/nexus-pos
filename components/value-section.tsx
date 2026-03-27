@@ -29,7 +29,7 @@ const valueItems = [
   {
     icon: <Headphones className="w-6 h-6 text-emerald-500" />,
     title: "Technical Support 14 Hari",
-    description: "Bantuan teknis langsung selama 14 hari untuk perbaikan bug minor dan kendala deployment pengerjaan proyek Anda.",
+    description: "Bantuan teknis langsung selama 14 hari untuk perbaikan bug minor aplikasi POS",
   },
 ]
 
