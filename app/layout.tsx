@@ -1,4 +1,5 @@
 import { Analytics } from '@vercel/analytics/next'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import type { Metadata } from 'next'
 import { Manrope } from 'next/font/google'
 import type React from 'react'
@@ -26,6 +27,9 @@ export default function RootLayout({
         <div className="noise-overlay" aria-hidden="true" />
         {children}
         <Analytics />
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        )}
       </body>
     </html>
   )
